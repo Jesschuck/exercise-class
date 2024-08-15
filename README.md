@@ -1,39 +1,39 @@
 # Classes exercises:
 
-Estes são exercícios feitos para a aula do curso Desenvolvedor FullStack do grupo +praTi e Codifica.
+These are exercises created for the FullStack Developer course by +praTi and Codifica group.
 
-Cada exercício tem como objetivo reforçar o entendimento das estruturas de controle e preparar para desafios mais complexos no desenvolvimento de software.
+Each exercise aims to reinforce the understanding of control structures and prepare for more complex software development challenges.
 
-## Comandos para rodar:
+## Commands to run the project:
 
-1. Clonar o repositório: `git clone <https://github.com/Jesschuck/exercise-class>`
+1. Clone the repository: `git clone <https://github.com/Jesschuck/exercise-class>`
 
-2. Entrar na pasta: `cd exercises`
+2. Enter the directory: `cd exercises`
 
-3. Instalar as dependências: `npm i`
+3. Install the dependencies: `npm i`
 
-4. Executar o projeto: `node exercise1.js`
+4. Run the project: `node exercise1.js`
 
-## Conteúdo:
+## Content:
 
-Nesse primeiro momento, foram estudados:
+The following topics were covered:
 
-- Condicionais - estruturas de controle como if-else, switch-case, e loops for e while.
+- Conditionals - control structures such as if-else, switch-case, and loops for and while.
 
-### Lista de exercícios:
+### List of Exercises:
 
-1. Verificar se o número é par ou ímpar.
-2. Classificação de idade.
-3. Classificação de nota (Aprovado, Recuperação, Reprovado).
-4. Criar um menu interativo usando switch-case.
-5. Calcular o Índice de Massa Corporal (IMC) e determinar a categoria de peso.
-6. Verificar e identificar o tipo de triângulo: Isósceles, Escaleno, Equilátero.
-7. Calcular o valor total de uma compra baseado na quantidade.
-8. Ordenar e exibir dois valores em ordem crescente.
-9. Exibir uma contagem regressiva de 10 até 1 usando um loop for.
-10. Exibir um número inteiro na tela 10 vezes.
-11. Solicitar 5 números e calcular a soma total usando um loop for.
-12. Exibir a tabuada de um número fornecido pelo usuário usando um loop for.
-13. Receber números decimais até o usuário digitar 0 e calcular a média aritmética.
-14. Calcular o fatorial de um número fornecido pelo usuário usando um loop.
-15. Os primeiros 10 números da sequência de Fibonacci.
+1. Check if a number is even or odd.
+2. Classify age.
+3. Grade classification (Approved, Recovery, Failed).
+4. Create an interactive menu using switch-case.
+5. Calculate the Body Mass Index (BMI) and determine the weight category.
+6. Check and identify the type of triangle: Isosceles, Scalene, Equilateral.
+7. Calculate the total cost of a purchase based on quantity.
+8. Sort and display two values in ascending order.
+9. Display a countdown from 10 to 1 using a for loop.
+10. Display an integer on the screen 10 times.
+11. Request 5 numbers and calculate the total sum using a for loop.
+12. Display the multiplication table of a number provided by the user using a for loop.
+13. Receive decimal numbers until the user inputs 0 and calculate the arithmetic mean.
+14. Calculate the factorial of a number provided by the user using a loop.
+15. Generate and display the first 10 numbers of the Fibonacci sequence.
