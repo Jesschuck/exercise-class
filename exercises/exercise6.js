@@ -1,0 +1,33 @@
+/* 
+    6. Ler três valores para os lados de um triângulo: A, B e C. Verificar se os lados fornecidos
+    formam realmente um triângulo. Caso forme, deve ser indicado o tipo de triângulo:
+    Isósceles, escaleno ou eqüilátero.
+
+    Para verificar se os lados fornecidos formam triângulo: A < B + C e B < A + C e C < A + B
+    Triângulo isósceles: possui dois lados iguais (A=B ou A=C ou B = C)
+    Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C)
+    Triângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
+*/
+
+const prompt = require('prompt-sync')()
+
+let ladoA = parseFloat(prompt('Digite o valor do lado A: '))
+let ladoB = parseFloat(prompt('Digite o valor do lado B: '))
+let ladoC = parseFloat(prompt('Digite o valor do lado C: '))
+
+function typeOfTriangle(a, b, c) {
+  if (a < b + c && b < a + c && c < a + b) {
+    if (a === b && b === c) {
+      return 'O triângulo possui todos os lados iguais então ele é eqüilátero.'
+    } else if (a === b || b === c || a === c) {
+      return 'O triângulo possui dois lados iguais então ele é isósceles.'
+    } else {
+      return 'O triângulo possui todos os lados diferentes então ele é escaleno.'
+    }
+  } else {
+    return 'Valores inválidos'
+  }
+}
+
+let triangle = typeOfTriangle(ladoA, ladoB, ladoC)
+console.log(triangle)
