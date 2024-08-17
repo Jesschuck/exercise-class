@@ -37,3 +37,7 @@ The following topics were covered:
 13. Receive decimal numbers until the user inputs 0 and calculate the arithmetic mean.
 14. Calculate the factorial of a number provided by the user using a loop.
 15. Generate and display the first 10 numbers of the Fibonacci sequence.
+
+## Add new reinforcement exercises
+
+- Inside the `exercisesrefor` folder I added reinforcement exercises for conditionals and repetition loops.
