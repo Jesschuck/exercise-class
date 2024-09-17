@@ -20,7 +20,7 @@ The following topics were covered:
 
 - Conditionals - control structures such as if-else, switch-case, and loops for and while.
 
-### List of Exercises:
+### List of Exercises 1:
 
 1. Check if a number is even or odd.
 2. Classify age.
@@ -41,3 +41,23 @@ The following topics were covered:
 ## Add new reinforcement exercises
 
 - Inside the `exercisesrefor` folder I added reinforcement exercises for conditionals and repetition loops.
+
+### List of Exercises 2:
+
+Object Manipulation with: `for in`, `for of` and `forEach`.
+
+1. Accessing Object Properties.
+2. Checking Properties.
+3. Filtering Object Properties.
+4. Iterating Over Arrays of Objects.
+5. Calculating Values in Arrays of Objects.
+6. Filtering Arrays of Objects.
+7. Modifying Objects in an Array.
+8. Creating New Arrays from Objects.
+9. Counting Elements with a Condition.
+10. Creating Reports with Objects and Arrays.
+11. Grouping Elements with forEach.
+12. Updating an Array of Objects.
+13. Implementing a Shopping Cart.
+14. Manipulating Complex Objects.
+15. Filtering and Summing Values.
