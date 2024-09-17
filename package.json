@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "exercisesmod1": "file:",
     "prompt-sync": "^4.2.0"
   }
 }
